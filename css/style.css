@@ -105,6 +105,11 @@
     font-family: Open sans;
 }
 
+.news-block-title a {
+    text-decoration: none;
+    color: black;
+}
+
 .news-heading > a {
   text-decoration: none; 
 }
@@ -154,6 +159,11 @@
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 700;
+}
+
+.news-title-h2 a {
+    color: white;
+    text-decoration: none;
 }
 
 .news-border {
@@ -297,6 +307,7 @@ background-image: url(../images/trend1.jpg);
 
 .image {
   height: auto;
+  width: 378px;
 }
 
 .big-images-width {
@@ -319,6 +330,7 @@ background-image: url(../images/trend1.jpg);
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  flex-wrap: wrap;
 }
 
 .article-tags > li {
@@ -349,6 +361,15 @@ background-image: url(../images/trend1.jpg);
   font-weight: 700;
 }
 
+.left-block-title a {
+    text-decoration: none;
+    color: black;
+}
+
+.post-image {
+    width: 69px;
+}
+
 .article-title {
   margin-bottom: 29px;
 }
@@ -377,9 +398,6 @@ background-image: url(../images/trend1.jpg);
 .article-content-text {
   color: #0f0d0e;
   font-size: 15px;
-}
-
-.article-content {
   margin-top: 43px;
 }
 
@@ -614,6 +632,11 @@ background-image: url(../images/trend1.jpg);
     font-family: Open-sans;
 }
 
+.ads-block-title a {
+    text-decoration: none;
+    color: black;
+}
+
 .ads-block-title::after {
     content: "";
     width: 65px;
@@ -641,6 +664,7 @@ background-image: url(../images/trend1.jpg);
     flex-direction: column;
     outline: 3px solid #b59f5b;
     outline-offset: 30px;
+    min-height: 230px;
 }
 
 .price-with-discount {
