@@ -838,3 +838,126 @@ background-image: url(../images/trend1.jpg);
   justify-content: center;
 }
 
+.menu-button-label {
+    display: none;
+}
+
+.menu-button {
+    display: none;
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+.blog-header {
+      background-image: url(../images/banner-bg-tablet.jpg);
+      height: 390px;
+}
+.blog {
+     display: inline-block;
+}
+.blog-header {
+    background-position: bottom center;
+}
+.header-content {
+    width: 645px;
+}
+.nav-item {
+    display: none;
+}
+.header-content-container {
+    width: 695px;
+}
+.header-title {
+    font-size: 40px;
+}
+.slider {
+    display: flex;
+    flex-wrap: wrap;
+}
+.news {
+    width: 49.5555% !important;
+    margin-bottom: 5px;
+    height: 244px;
+}
+.left-block {
+    width: 388px;
+}
+.right-block {
+    margin-left: 32px;
+    width: 270px;
+}
+.main-blog-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.article {
+    flex-direction: column;
+}
+.big-images-width {
+    width: 378px;
+}
+.article-information {
+    margin-left: unset;
+    margin-top: 10px;
+}
+.ads-blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ads-block {
+    max-width: unset;
+    margin-right: unset;
+    width: 290px;
+}
+.ads-content {
+    outline-offset: 15px;
+}
+.ads-block:nth-child(n+3) {
+    margin-top: 50px;    
+}
+.menu-button {
+    width: 1.4em;
+    height: 1em;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    font-size: 25px;
+    position: relative;
+    text-indent: -9999px;
+    cursor: pointer;
+}
+.menu-button:before {
+    top: 0;
+}
+.menu__button:after {
+    bottom: 0;
+}
+.menu-button:before, .menu-button:after {
+    content: "";
+    width: 100%;
+    height: 20%;
+    border-radius: 5px;
+    background-color: #ffffff;
+    position: absolute;
+    left: 0;
+}
+.menu {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;   
+}
+.menu-button-label {
+    width: 100%;
+    height: 20%;
+    margin-top: -0.1em;
+    border-radius: 5px;
+    background-color: #ffffff;
+    position: absolute;
+    left: 0;
+    top: 109%;
+}
+}
