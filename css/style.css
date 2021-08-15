@@ -845,8 +845,17 @@ background-image: url(../images/trend1.jpg);
 .menu-button {
     display: none;
 }
+/*
+@media (max-width: 1550px) {
+    .news {
+        width: 49.66%;
+    }
+    .slider {
+        flex-wrap: wrap;
+    }
+}*/
 
-@media (min-width: 768px) and (max-width: 1024px){
+@media (min-width: 768px) and (max-width: 1550px){
 .blog-header {
       background-image: url(../images/banner-bg-tablet.jpg);
       height: 390px;
@@ -871,12 +880,12 @@ background-image: url(../images/trend1.jpg);
 }
 .slider {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap !important;
 }
 .news {
-    width: 49.5555% !important;
     margin-bottom: 5px;
     height: 244px;
+    width: 49.55%;
 }
 .left-block {
     width: 388px;
